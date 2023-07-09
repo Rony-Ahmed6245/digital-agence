@@ -1,0 +1,31 @@
+/* Universal css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+}
+.menus{
+    display: flex;
+    gap: 20px;
+}
+.menus li  {
+    list-style: none;
+}
+.menus li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
