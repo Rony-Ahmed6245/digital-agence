@@ -101,3 +101,33 @@ span{
 }
 
 /* banner section css end  */
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+    text-align: justify;
+    
+}
+.service{
+    width: 500px;
+}
+.service-holders{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    
+}
+.holder{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-right: 2px solid black;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+.holder img{
+    width:70px;
+    border-radius: 50px;
+}
