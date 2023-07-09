@@ -83,13 +83,21 @@ span{
     outline: none;
     text-transform: capitalize;
 }
+.banner-red-btn:hover{
+    background-color: rgb(0, 0, 0);
+    transition: .5s; 
+}
 .banner-white-btn{
     background: none;
     padding: 10px 40px;
     color: white;
     border-radius: 5px;
-    border: 1px solid red;
+    border: 1px solid rgb(255, 255, 255);
     text-transform: capitalize;
+}
+.banner-white-btn:hover{
+    background-color: black;
+    transition: .5s;
 }
 
 /* banner section css end  */
