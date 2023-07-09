@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+
+
+/* header section css  start*/
 header{
     position: sticky;
     top: 0;
@@ -28,4 +31,65 @@ header{
     text-decoration: none;
     color:white;
     font-size: 20px;
+    text-transform: capitalize;
 }
+
+/* header section css  end */
+
+
+/* banner section css  start*/
+
+.banner-container{
+    background-image:url("asset/image/background.jpg"), linear-gradient(rgb(0, 0, 0),rgb(77, 77, 77));
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    background-position: cover;
+    background-position: center;
+    height: 100vh;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    /* padding: 0 100px; */
+}
+.banner-title{
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.banner-descriptions{
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+span{
+    color: red;
+}
+.banner-btn{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.banner-red-btn{
+    padding: 10px 40px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+}
+.banner-white-btn{
+    background: none;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid red;
+    text-transform: capitalize;
+}
+
+/* banner section css end  */
