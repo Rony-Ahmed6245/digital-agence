@@ -108,10 +108,11 @@ span{
     align-items: center;
     text-transform: capitalize;
     text-align: justify;
+    margin-top: 100px;
     
 }
 .service{
-    width: 500px;
+    width: 50vh;
 }
 .service-holders{
     display: flex;
@@ -130,4 +131,28 @@ span{
 .holder img{
     width:70px;
     border-radius: 50px;
+}
+
+
+
+
+
+.service-content{
+    width:80vh;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.card{
+    background-color: rgb(222, 222, 222);
+    padding: 10px;
+    border-radius: 5px ;
+    align-items: center;
+}
+.card img{
+    width: 100px;
 }
