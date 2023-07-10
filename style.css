@@ -103,6 +103,8 @@ span{
 
 /* banner section css end  */
 
+
+/* services section css starts  */
 .services{
     display: flex;
     justify-content:space-around;
@@ -165,4 +167,30 @@ span{
 }
 .card img{
     width: 100px;
+}
+
+/* services section css end  */
+
+.apeinment-section{
+    display: flex;
+    width: 80%;
+    margin:-50px auto;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+.apeinment-consultatons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+.apeinment-consultatons img{
+    width: 100px;
+}
+.apon-discriptions, .apeinment-consultatons{
+    color: whitesmoke;
 }
