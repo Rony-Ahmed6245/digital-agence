@@ -194,3 +194,29 @@ span{
 .apon-discriptions, .apeinment-consultatons{
     color: whitesmoke;
 }
+
+
+.sub-cards{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+} 
+
+.main-card{
+    width: 300px;
+    background-color: rgb(197, 197, 197);
+    border-radius: 5px;
+}
+.main-card>img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.card-des{
+    padding: 10px;
+    text-align: center;
+}
