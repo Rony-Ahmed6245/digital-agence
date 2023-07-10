@@ -19,6 +19,7 @@ header{
     align-items: center;
     background-color: gray;
     padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.043);
 }
 .menus{
     display: flex;
@@ -104,15 +105,23 @@ span{
 
 .services{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
     text-transform: capitalize;
     text-align: justify;
-    margin-top: 100px;
+    background-image: url("asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.464) ,rgba(0, 0, 0, 0.722));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position:cover;
+    height: 100vh;
+    
     
 }
 .service{
     width: 50vh;
+    color: white;
 }
 .service-holders{
     display: flex;
@@ -134,24 +143,25 @@ span{
 }
 
 
-
-
-
 .service-content{
-    width:80vh;
+    width:100vh;
 }
 
 .cards{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
+    margin: 20px 0 0 0;
 
 }
 .card{
     background-color: rgb(222, 222, 222);
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px ;
     align-items: center;
+    text-align: center;
+
 }
 .card img{
     width: 100px;
