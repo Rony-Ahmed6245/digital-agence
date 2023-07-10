@@ -171,6 +171,10 @@ span{
 
 /* services section css end  */
 
+
+
+
+/* appointment section css starts  */
 .apeinment-section{
     display: flex;
     width: 80%;
@@ -195,6 +199,11 @@ span{
     color: whitesmoke;
 }
 
+/* appointment section css starts  */
+
+
+
+/* main card section css starts */
 
 .sub-cards{
     display: flex;
@@ -220,3 +229,5 @@ span{
     padding: 10px;
     text-align: center;
 }
+
+/* main card section css ends*/
